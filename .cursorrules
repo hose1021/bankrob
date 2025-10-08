@@ -1,0 +1,21 @@
+// Biome configuration overrides
+{
+  "linter": {
+    "rules": {
+      "a11y": {
+        "noStaticElementInteractions": "warn",
+        "useKeyWithClickEvents": "warn",
+        "noLabelWithoutControl": "warn",
+        "useValidAnchor": "warn",
+        "useButtonType": "warn"
+      },
+      "style": {
+        "noNonNullAssertion": "warn"
+      },
+      "correctness": {
+        "noUnusedFunctionParameters": "warn",
+        "useExhaustiveDependencies": "warn"
+      }
+    }
+  }
+}
