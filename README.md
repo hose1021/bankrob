@@ -49,6 +49,36 @@ npm run dev
 # http://localhost:3000
 ```
 
+## 📦 Деплой на GitHub Pages
+
+Проект настроен для автоматического деплоя на GitHub Pages.
+
+### Шаги:
+
+1. **Создай репозиторий на GitHub**
+
+2. **Запуш код:**
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit"
+   git branch -M main
+   git remote add origin https://github.com/<username>/bankrob.git
+   git push -u origin main
+   ```
+
+3. **Настрой GitHub Pages:**
+   - Перейди в Settings → Pages
+   - Source: выбери "GitHub Actions"
+   - Workflow запустится автоматически
+
+4. **Готово!** Сайт будет доступен по адресу:
+   ```
+   https://<username>.github.io/bankrob/
+   ```
+
+📖 Подробнее см. [DEPLOYMENT.md](./DEPLOYMENT.md)
+
 ## 📂 Структура проекта
 
 ```
